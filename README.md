@@ -7,7 +7,7 @@ Este repositório contém **todas as quatro partes** do trabalho:
 - **Parte 3 — Clusterização (K-Means e Hierárquica)**
 - **Parte 4 — Algoritmos (passos do K-means e versão medóide)**
 
-## 🔧 Como executar (Ambiente local)
+## Como executar (Ambiente local)
 
 Você pode usar **virtualenv** ou **Conda**. Abaixo, exemplos:
 
@@ -29,27 +29,18 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name country-clustering
 ```
 
-> **Printscreen solicitado (Parte 1):**
-> Abra um terminal com o ambiente ativado e rode:
-> ```bash
-> python -c "import sys,platform;print(platform.platform());print(sys.version)"
-> python -c "import numpy,pandas,sklearn,scipy,matplotlib,seaborn;print('OK libs')"
-> jupyter --version
-> ```
-> Tire um print do terminal e cole no relatório.
-
-## 📥 Dados (Kaggle)
+## Dados (Kaggle)
 Baixe o dataset em:  
 https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data
 
 Coloque o arquivo **`Country-data.csv`** em `./data/Country-data.csv` antes de abrir o notebook.
 
-## 📓 Notebook principal
+## Notebook principal
 Abra o notebook:
 ```
 notebooks/01_country_clustering.ipynb
 ```
-e selecione o kernel `country-clustering` (ou o kernel que você criou).
+e selecione o kernel `country-clustering`.
 
 O notebook executa:
 - Verificação do ambiente (Parte 1).
@@ -58,14 +49,5 @@ O notebook executa:
 - Clusterização Hierárquica + dendrograma e comparação (Parte 3).
 - Passos do K-Means e implementação **K-Medóides** (PAM simplificado) (Parte 4).
 
-## 🧪 Scripts auxiliares
-- `src/kmedoids.py` — Implementação simples de K-Medóides (método PAM).
-
-## 📦 Entrega
-- **requirements.txt** incluso.
-- Notebook + scripts.
-- Inclua o **printscreen** do ambiente ativado no seu relatório.
-- Publique estes arquivos em um repositório público **ou** compacte a pasta e submeta no Moodle.
-
 ---
-Autor: (preencher com seu nome)
+Autor: Felipe Szczpanski
